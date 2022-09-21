@@ -1,8 +1,29 @@
 {
+  "name": "fusyona-sdk",
+  "version": "1.0.0",
+  "description": "Typescript client to interact with Fusyona's APIs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
   "dependencies": {
     "node-fetch": "^2.6.1"
   },
   "devDependencies": {
     "@types/node-fetch": "^2.6.2"
-  }
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fusyona/TypeScript-SDK.git"
+  },
+  "author": "FusyLabs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fusyona/TypeScript-SDK/issues"
+  },
+  "homepage": "https://github.com/Fusyona/TypeScript-SDK#readme"
 }
